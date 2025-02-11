@@ -3,7 +3,7 @@ let products=[
     {name:"Phone", price:800, category:"Electronics"},
     {name:"Desk Chair", price:150,category:"Furniture"}
 ];
-console.log(products)
+console.log("OG list",products)
 // function getProductsByCategory(products, category){
 //     return products.filter(product=>product.category===category);//filter grabs things inside the array. using callback to filter category
 // }
@@ -18,7 +18,7 @@ function applyDiscount(products,discountRate){
     }
     ))
 };//map applies to every single item in array
-console.log(applyDiscount(products,.1))
+console.log("New List:", applyDiscount(products,.1))
 // function sum3(x,y,z){
 //     return x+y+z;
 // }
